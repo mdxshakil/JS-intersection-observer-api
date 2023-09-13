@@ -1,0 +1,20 @@
+.card {
+    height: 200px;
+    width: 350px;
+    background-color: teal;
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 20px;
+}
+
+.change-color {
+    background-color: tomato;
+    transform: scale(.8);
+}
